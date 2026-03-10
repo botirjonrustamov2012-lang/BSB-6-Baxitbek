@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    animation: fadePage 1.5s ease-in;
+}
+h1{
+    color: black;
+}
+
+@keyframes fadePage {
+    from {
+        opacity: 0;
+        background-color:lightskyblue;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+header {
+    background-color: lightgoldenrodyellow;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgreen;
+    color: white;
+}
+
+
+.i {
+    width: 300px;
+    
+    line-height: 1.6;
+    text-align: left;
+    float: left;
+}
+.b{
+   width: 300px;
+   float: right;
+    line-height: 1.6;
+    text-align: right; 
+}
+.table{
+   
+    display: flex;
+}
+.t2{
+    width: 1900px;
+}

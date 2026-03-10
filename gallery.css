@@ -1,0 +1,44 @@
+body{
+font-family:Arial;
+background:#fafafa;
+}
+
+header{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+padding:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+transition:0.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.1);
+}
+
+@media(max-width:768px){
+.gallery{
+grid-template-columns:1fr;
+}
+}
