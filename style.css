@@ -251,9 +251,9 @@ button.btn {
 }
 
 .tarixi{
-width:750px;
+width:1000px;
     text-align: center;
-    margin:0 auto;
+    margin:10px auto;
     font-size: 20px;
   
 }
@@ -262,7 +262,7 @@ width:750px;
     height:300px
 }
 .history{
-   width:1500px;
+   width:1000px;
     display: flex;
     height:300px
 }
@@ -301,6 +301,7 @@ footer {
     }
 
 }
+
 
 
 
