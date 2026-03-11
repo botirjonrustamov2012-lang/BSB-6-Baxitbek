@@ -256,6 +256,13 @@ button.btn {
     margin-left: 800px;
     font-size: 20px;
 }
+.foto{
+ width: 600px;
+}
+.history{
+   
+    display: flex;
+}
 footer {
     background: #0A2A66;
     color: white;
@@ -291,5 +298,6 @@ footer {
     }
 
 }
+
 
 
