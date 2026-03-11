@@ -122,7 +122,7 @@ h2 {
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
-    text-align:center
+    text-align:center;
 }
 
 .feature-card {
@@ -291,3 +291,4 @@ footer {
     }
 
 }
+
