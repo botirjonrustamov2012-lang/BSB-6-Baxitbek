@@ -251,7 +251,7 @@ button.btn {
 }
 
 .tarixi{
-width:1000px;
+max-width:1200px;
     text-align: center;
     margin:10px auto;
     font-size: 20px;
@@ -302,6 +302,7 @@ footer {
     }
 
 }
+
 
 
 
