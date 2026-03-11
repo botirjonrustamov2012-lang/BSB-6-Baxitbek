@@ -259,12 +259,12 @@ width:1000px;
 }
 .foto{
  width: 700px;
-    height:600px
+    height:500px
 }
 .history{
-   width:1000px;
+   width:1200px;
     display: flex;
-    height:600px
+    height:500px
     margin: 0 auto;
 }
 footer {
@@ -302,6 +302,7 @@ footer {
     }
 
 }
+
 
 
 
